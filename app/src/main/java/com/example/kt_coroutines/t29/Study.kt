@@ -12,6 +12,8 @@ import kotlin.coroutines.EmptyCoroutineContext
  * @Auther: yanguoqing
  * @Date: 2023/11/24 20:23
  * @Description:
+ *
+ * debug 配置：-Dkotlinx.coroutines.debug
  */
 /*
     Android 协程CoroutineContext
