@@ -3,14 +3,9 @@ package com.example.kt_coroutines.t61
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.asFlow
 import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.flatMapConcat
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.onEach
-import kotlinx.coroutines.flow.reduce
-import kotlinx.coroutines.flow.transform
-import kotlinx.coroutines.flow.zip
 import kotlinx.coroutines.runBlocking
-import kotlin.system.measureTimeMillis
 
 /**
  *@author yanguoqing
@@ -19,7 +14,7 @@ import kotlin.system.measureTimeMillis
  */
 
 /**
- * 协程Flow的flatMap 展平操作符
+ * 协程Flow的catch
  *
  * FLow 是异步流
  */
